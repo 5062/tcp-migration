@@ -1,0 +1,3 @@
+# add following to /etc/snort/rules/local.rules
+alert tcp any any -> 10.0.0.1 any (msg:"FORWARD"; flags:PA; content:"forward"; sid:1000001)
+alert tcp any any -> 10.0.0.1 any (msg:"MIGRATE"; flags:PA; content:"migrate"; sid:1000002)

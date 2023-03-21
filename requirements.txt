@@ -1,0 +1,2 @@
+eventlet==0.31.1
+scapy==2.5.0
